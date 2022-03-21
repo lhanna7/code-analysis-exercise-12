@@ -23,14 +23,14 @@ function (currentColor){
 
 | Input | Output |
 | ----- | ------ |
-| green      |   yellow     | 
-| yellow     |    red    | 
-|  blue    |  none?      | 
+| green      |   "yellow"     | 
+| yellow     |    "red"   | 
+|  blue    |  undefined   | 
 
 <table>
   <tr>
     <th>What does this program do?</th>
-    <td>This program is basically a stoplight. A stoplight will never go from green to red, just like this program wouldn't. I also assume since there can't be an output for blue since it's not listed in an else if and there are no other else's. This function takes the input, currentColor, and first looks to see if it ===green. If so, then the return will be yellow. If the color input wasn't green, then the function looks if ===yellow. If so, then the return will be red. If the color input wasn't green or yellow, then the function looks if ===red. If so, then the return will be green.</td>
+    <td>This program is basically a stoplight. A stoplight will never go from green to red, just like this program wouldn't. I also assume there can't be a defined output for blue since it's not listed in an else if and there are no other else's. This function takes the input, currentColor, and first looks to see if it ===green. If so, then the return will be yellow. If the color input wasn't green, then the function looks if ===yellow. If so, then the return will be red. If the color input wasn't green or yellow, then the function looks if ===red. If so, then the return will be green.</td>
   </tr>
 </table>
 
